@@ -1,0 +1,4 @@
+# Jonsbo DS339 USB screen: allow non-root access + keep hid-generic off it.
+# Install: sudo cp ds339.rules /etc/udev/rules.d/99-ds339.rules
+#          sudo udevadm control --reload && sudo udevadm trigger
+SUBSYSTEM=="usb", ATTRS{idVendor}=="345f", ATTRS{idProduct}=="9132", MODE="0666"

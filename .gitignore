@@ -1,0 +1,17 @@
+.env
+credentials
+.venv/
+node_modules/
+zig-out/
+.zig-cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.scratch/
+.claude/
+.cache/
+capture/
+wine-harness/
+re/
+Vmax*.resources
